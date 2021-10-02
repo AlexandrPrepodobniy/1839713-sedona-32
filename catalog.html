@@ -31,7 +31,8 @@
             </li>
             <li class="navigation-item">
               <a class="navigation-link" href="">
-                <span class="visually-hidden">Избранное<sup class=visually-hidden>Колличество избранного</sup></span>
+                <span class="visually-hidden">Избранное</span>
+                <span class=count>12</span>
               </a>
             </li>
             <li class="navigation-item">
@@ -107,7 +108,7 @@
                     <span class="control-label">Апартаменты</span>
                   </label>
                 </li>
-                </ul>
+              </ul>
           </fieldset>
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Стоимость,<span class="rub">Р</span></legend>
@@ -130,9 +131,9 @@
         </form>
       </section>         
       <section class="catalog">
-        <!--<span>  Найдено Гостиниц <output?>38</output?></span> не могу понять каким способом выводится результат вроде как есть тег вывода результата, но я е понимаю, как его использовать в данном случае-->
+        <h2 class="result-search">Найдено Гостиниц: 38</h2>
         <form class="sorting-type">
-          label class="visually-hidden" for="sorting">Сортировка</label>
+          <label class="visually-hidden" for="sorting">Сортировка</label>
           <select class="select-control" id="sorting" name="sorting">
             <option value="cheap">Сначала дешёвые</option>
             <option value="expensive">Сначала дорогие</option>
@@ -147,13 +148,12 @@
           <a href="#" class="button">
           <span class="visually-hidden">Показать список</span>
         </a>
-         <!-- с данного места пошёл сам каталог и описание товара не придумал ничего кроме, как делать через спаны -->
-         <ul class="product-list">
+        <ul class="product-list">
           <li class="product-card">
             <a class="product-card-link" href="product.html">
               <img class="product-card-image" src="" alt="hotel Amara Resort & Spa">
             </a>
-            <div class="product-card"></div>
+            <div class="product-card">
               <a class="product-card-link" href="product.html">
                 <h3 class="product-card-title">Amara Resort & Spa</h3>
               </a>
@@ -172,7 +172,7 @@
             <a class="product-card-link" href="product.html">
               <img class="product-card-image" src="" alt="motel Desert Quail Inn">
             </a>
-            <div class="product-card"></div>
+            <div class="product-card">
             <a class="product-card-link" href="product.html">
               <h3 class="product-card-title">Desert Quail Inn</h3>
             </a>
@@ -191,7 +191,7 @@
             <a class="product-card-link" href="product.html">
               <img class="product-card-image" src="" alt="apartments Villas at Poco Diablo">
             </a>
-            <div class="product-card"></div>
+            <div class="product-card">
             <a class="product-card-link" href="product.html">
               <h3 class="product-card-title">Villas at Poco Diablo</h3>
             </a>
@@ -210,7 +210,7 @@
             <a class="product-card-link" href="product.html">
               <img class="product-card-image" src="" alt="hotel GreenTree Inn">
             </a>
-            <div class="product-card"></div>
+            <div class="product-card">
             <a class="product-card-link" href="product.html">
               <h3 class="product-card-title">GreenTree Inn</h3>
             </a>
@@ -225,36 +225,36 @@
               <span class="rating"> Рейтинг 9,2</span>
             </div>
           </li>
-          </ul>
-           <button class="button pagination-show-more" type="button">Загрузить ещё</button>
-            <ul class="pagination">
-              <li class="pagination-item">
-                <a class="pagination-link pagination-current">1</a>
-              </li>
-              <li class="pagination-item">
-                <a class="pagination-link" href="#">2</a>
-              </li>
-              <li class="pagination-item">
-                <a class="pagination-link" href="#">3</a>
-              </li>
-              <li class="pagination-item">
-                <a class="pagination-link" href="#">4</a>
-              </li>
-              <li class="pagination-item">
-                <a class="pagination-link pagination-choice" href="#">
-                  <span class="visually-hidden">Выбор страницы</span>
-                </a>
-              </li>
-              <li class="pagination-item">
-                <a class="pagination-link" href="#">10</a>
-              </li>
-            </ul>
-            <label class="hotel-on-page" for="quantities">Гостиниц на странице</label>
-              <select class="select-control" id="quantities" name="quantities">
-                <option value="4">4</option>
-                <option value="8">8</option>
-                <option value="16">16</option>
-             </select>
+        </ul>
+        <button class="button pagination-show-more" type="button">Загрузить ещё</button>
+        <ul class="pagination">
+          <li class="pagination-item">
+            <a class="pagination-link pagination-current">1</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">2</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">3</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">4</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link pagination-choice" href="#">
+              <span class="visually-hidden">Выбор страницы</span>
+            </a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">10</a>
+          </li>
+        </ul>
+        <label class="hotel-on-page" for="quantities">Гостиниц на странице</label>
+        <select class="select-control" id="quantities" name="quantities">
+          <option value="4">4</option>
+          <option value="8">8</option>
+          <option value="16">16</option>
+        </select>
       </section>
       <section class="mailing">
         <h2 class="mailing-title"> Подпишитесь на рассылку </h2>
