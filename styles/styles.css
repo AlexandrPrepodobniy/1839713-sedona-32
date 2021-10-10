@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+
+  src: url("fonts/ptsans-400.woff2") format("woff2"),
+    url("fonts/PTSans-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+
+  src: url("fonts/ptsans-700.woff2") format("woff2"),
+    url("fonts/PTSans-Bold.woff") format("woff");
+}
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #f2f2f2;
+}
+.button.navigation-link,
+.button {
+  background-color: #756257;
+  color: white;
+}
+.navigation-link {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  text-decoration: none;
+}
+.main-logo {
+  text-align: center;
+}
+.main-title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+}
+p {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 36px;
+}
+.first-advantage {
+  text-align: center;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 21px;
+}
+.second-advantage {
+  text-align: center;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 21px;
+}
+.advantages-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+.advantages-description {
+  text-transform: none;
+}
+.first-advantage-components {
+  text-align: center;
+}
+.components-item-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.advantage-list {
+  text-align: center;
+  text-align: center;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 21px;
+}
+.search {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.search-description {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: none;
+}
+.button-search {
+  font-size: 30px;
+}
+.mailing {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.mailing-description {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: none;
+}
+.button-email {
+  font-size: 30px;
+  background-color: #83b3d3;
+}
