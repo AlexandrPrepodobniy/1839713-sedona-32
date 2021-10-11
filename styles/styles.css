@@ -5,6 +5,7 @@
 
   src: url("fonts/ptsans-400.woff2") format("woff2"),
     url("fonts/PTSans-Regular.woff") format("woff");
+  font-display: swap;
 }
 @font-face {
   font-family: "PT Sans";
@@ -13,6 +14,7 @@
 
   src: url("fonts/ptsans-700.woff2") format("woff2"),
     url("fonts/PTSans-Bold.woff") format("woff");
+  font-display: swap;
 }
 body {
   font-family: "PT Sans", sans-serif;
@@ -116,4 +118,106 @@ p {
 .button-email {
   font-size: 30px;
   background-color: #83b3d3;
+}
+span.footer-tel,
+.footer-tel {
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.main-inner {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+}
+.catalog-filters {
+  color: #ffffff;
+  background-image: url(../image/catalog-background.jpg);
+  background-repeat: no-repeat;
+  background-color: coral;
+}
+.inner-title {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 78px;
+}
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+}
+.catalog-filter-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+}
+input.button {
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.result-search {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 39px;
+  text-transform: uppercase;
+}
+.product-card-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+}
+.rating {
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.button-card {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  background-color: #83b3d3;
+}
+.button-card-green {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  background-color: #7db54f;
+}
+.pagination-show-more {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #83b3d3;
+}
+.pagination-link {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #83b3d3;
+  color: white;
+}
+.pagination-current {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #e5e5e5;
+  color: white;
 }
